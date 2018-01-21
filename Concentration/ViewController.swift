@@ -17,12 +17,12 @@ class ViewController: UIViewController {
             flipCountLabel.text = "Flips: \(flipCount)" // property observer
         } // didSet is a propertyObserver
     }
-     
+    
     @IBOutlet weak var flipCountLabel: UILabel!
     
     @IBOutlet var cardButtons: [UIButton]!
     
-    
+    // change
     
     @IBAction func touchCard(_ sender: UIButton) {
         flipCount += 1
