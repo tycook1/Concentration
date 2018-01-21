@@ -17,7 +17,7 @@ class ViewController: UIViewController {
             flipCountLabel.text = "Flips: \(flipCount)" // property observer
         } // didSet is a propertyObserver
     }
-    
+     
     @IBOutlet weak var flipCountLabel: UILabel!
     
     @IBOutlet var cardButtons: [UIButton]!
